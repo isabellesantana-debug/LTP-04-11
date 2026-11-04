@@ -14,7 +14,7 @@ produtos.forEach((produto) => {
     } else {
         console.log("Repor estoque");
     }
-
+iiisabbe
     try {
         console.log("Verificação concluída com sucesso!");
     } catch (error) {
