@@ -1,8 +1,8 @@
 const produtos = require("./produto.json");
-console.log("===CATÁLOGO DE PRODUTOS===");
+console.log("======CATÁLOGO DE PRODUTOS======");
 
 produtos.forEach((produto) => {
-    console.log("------------------------");
+    console.log("-------------------------------");
     console.log("Produto: " + produto.nome);
     console.log("Preço: R$ " + produto.preco);
     console.log("Quantidade: " + produto.quantidade);
